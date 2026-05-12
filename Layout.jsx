@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import {
   LayoutDashboard, BarChart3, Megaphone, CalendarDays,
-  Globe2, Upload, Menu, X, ChevronRight, Settings, GitBranch, Table2, Users
+  Globe2, Upload, Menu, X, ChevronRight, Settings, GitBranch, Table2, Users, Sparkles
 } from "lucide-react";
 
 const NAV_GROUPS = [
@@ -20,6 +20,12 @@ const NAV_GROUPS = [
       { label: "Campaigns", page: "Campaigns", icon: Megaphone },
       { label: "Events & Webinars", page: "EventsWebinars", icon: CalendarDays },
       { label: "Distributors", page: "Distributors", icon: Globe2 },
+    ],
+  },
+  {
+    group: "Internal",
+    items: [
+      { label: "AI at work", page: "AIAtWork", icon: Sparkles },
     ],
   },
   {

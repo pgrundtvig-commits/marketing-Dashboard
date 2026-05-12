@@ -62,6 +62,7 @@ import FunnelDiagnostics from './pages/FunnelDiagnostics';
 import Overview from './pages/Overview';
 import PartnerDES from './pages/PartnerDES';
 import PerformanceDrivers from './pages/PerformanceDrivers';
+import AIAtWork from './pages/AIAtWork';
 import __Layout from './Layout.jsx';
 
 
@@ -81,6 +82,7 @@ export const PAGES = {
     "Overview": Overview,
     "PartnerDES": PartnerDES,
     "PerformanceDrivers": PerformanceDrivers,
+    "AIAtWork": AIAtWork,
 }
 
 export const pagesConfig = {
